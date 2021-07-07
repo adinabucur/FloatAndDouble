@@ -20,5 +20,14 @@ public class Main {
         System.out.println("MyIntValue = " + myIntValue);
         System.out.println("MyFloatValue = " + myFloatValue);
         System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        double pounds = 200d;
+        double kilograms = pounds * 0.45359237;
+        System.out.println(pounds + " pounds = " + kilograms + " kilograms");
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
     }
 }
